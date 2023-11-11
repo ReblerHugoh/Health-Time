@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="icon" href="images/contexto.png">
+</head>
+<body>
+    <div class="cadas">
+        <div class="left-side">
+            <img src="images/enter-otp-animate.svg" alt="animação">
+        </div>
+        <div class="right-side">
+            <form id="form">
+                <div class="card">
+                    <h1>Cadastro (Primeiro Contato)</h1>
+
+                    <div class="textfield">
+                        
+                        <input class="inputs required" type="text" placeholder="Usuario" id="name">
+                        <span class="span-required">Nome deve ter no mínimo 3 caracteres</span>
+                    </div>
+
+                    <div class="textfield">
+
+                        <input class="inputs required" type="email" placeholder="Email" id="email">
+                        <span class="span-required">Digite um Email Válido</span>
+                    </div>
+
+                    <div class="textfield">
+                    
+                        <input class="inputs required" type="password" placeholder="Senha" id="senha">
+                        <span class="span-required">Digite uma Senha com no mínimo 8 caracteres</span>
+                    </div>
+
+                    <div class="textfield">
+                        
+                        <input class="inputs required" type="password" placeholder="Confirmação" id="conf">
+                        <span class="span-required">As senhas devem ser compativeis</span>
+                    </div>
+
+                    <input class="btn" type="submit" onclick="nameValidate(); return false">
+
+                    <div class="btn2">
+                        <a href="helth time.html" style="text-decoration: none;">Voltar</a>
+                    </div>
+
+                </div>
+        </div>
+    </div>
+    <script>
+
+        function nameValidate(){
+
+            var Usuario = document.getElementById('name').value;
+            var Email = document.getElementById('email').value;
+            var Senha = document.getElementById('senha').value;
+            var Confirmação = document.getElementById('conf').value;
+
+            if (name > 3) {
+                alert('Falha'); 
+
+            } 
+            else {
+                alert('Sucesso');
+                location.href = "helth time.html";
+            }
+
+            if (email == "reblerson@") {
+                alert('Falha'); 
+
+            } 
+            else {
+                alert('Sucesso');
+                location.href = "helth time.html";
+            }
+
+            if (senha > 3 && senha != 10) {
+                alert('Falha'); 
+
+            } 
+            else {
+                alert('Sucesso');
+                location.href = "helth time.html";
+            }
+
+            if (conf > 3) {
+                alert('Falha'); 
+
+            } 
+            else {
+                alert('Sucesso');
+                location.href = "helth time.html";
+            }
+        }
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,341 @@
+body{
+    font-family: sans-serif;
+    background-color: #fc0b1f;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.card p{
+    color: #a3a5ae;
+    font-size: 16px;
+}
+
+.image{
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.black{
+    border-left: 3px solid #121111;
+    background-color: #f4f4f4;
+}
+
+.blue{
+    border-left: 3px solid #4895ff;
+    background-color: #f4f4f4;
+}
+
+.red{
+    border-left: 3px solid #b3404a;
+    background-color: #f4f4f4;
+}
+
+.dowm{
+    margin: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fc0b1f;
+    height: 100%;
+}
+
+.tela{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card1{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    margin: 20px;
+    width: 400px;
+    height: 650px;
+    transition: all 0.3s ease-out;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 20px -135px;
+}
+
+.card1 img{
+    display: flex;
+}
+
+.card1 > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 0px 10px;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font: bolder;
+}
+
+.card1 > h1{
+    color: #da1727;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.card2{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    margin: 20px;
+    width: 400px;
+    height: 650px;
+    transition: all 0.3s ease-out;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 20px -135px;
+}
+
+.card2 img{
+    display: flex;
+}
+
+.card2 > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    padding: 0px 10px;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font: bolder;
+}
+
+.card2 > h1{
+    color: #da1727;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.card3{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    margin: 20px;
+    width: 400px;
+    height: 650px;
+    transition: all 0.3s ease-out;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    padding: 20px -135px;
+}
+
+.card3>img{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-right> a{
+    margin: -3px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font: bolder;
+}
+
+.card3> h1{
+    color: #da1727;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.card-right>p{
+    margin: -3px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font: bolder;
+}
+
+.card-right{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-left{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card3>img{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.main>iframe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-left>svg{
+    color: #59050c;
+}
+
+.tela > .card1:hover{
+    transform: translateY(-5px);
+}
+
+.tela > .card2:hover{
+    transform: translateY(-5px);
+}
+
+.tela > .card3:hover{
+    transform: translateY(-5px);
+}
+
+.lb1{
+    cursor: pointer;
+    background-color: #121111;
+    min-height: 100vh;
+    letter-spacing: 1px;
+}
+
+.lb2{
+    cursor: pointer;
+    background-color: #b3404a;
+    min-height: 100vh;
+    letter-spacing: 1px;
+}
+
+.lb3{
+    cursor: pointer;
+    background-color: #4895ff;
+    min-height: 100vh;
+    letter-spacing: 1px;
+}
+
+label:hover{
+    background-color: green;
+}
+
+label{
+    color: #f4f4f4;
+    border-radius: 1px;
+    min-height: 100vh;
+}
+.med{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+.med > img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    flex-direction: column;
+    width: 80px;
+}
+
+.med > h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #cf0e0e;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.trasition {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+
+.trasition > img {
+    display: flex;
+    transition: transform 0.5s;
+}
+
+.main{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+    height: 200px;
+    width: 900px;
+}
+
+.icon>svg{
+    display: block;
+    align-items: flex-end;
+    padding-top: 40px;
+}
+
+svg{
+    color: #f4f4f4;
+    width: 100px;
+}
+
+svg:hover{
+    cursor: pointer;
+    color: #59050c;
+}
